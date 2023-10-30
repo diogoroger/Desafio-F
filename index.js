@@ -55,3 +55,31 @@ nivel = "prata";
   nivel= "radiante";
 }
 console.log( heroi + " Tem Nível "+ nivel);
+
+
+switch (nivel){
+        case "ferro":
+        console.log( heroi + "ainda tem muito para evoluir");
+        break;
+        case "bronze":
+            console.log(heroi + " está evoluindo");
+            break;
+        case "prata" :
+            console.log(heroi + " está ficando forte");
+            break;
+        case "ouro":
+            console.log(heroi + " Está pronto para desafios mais altos");
+            break
+         case "platina":
+            console.log(heroi + " Está ficando imbatível");
+            break
+            case "ascendente":
+            console.log(heroi + " Está muito forte");
+            break
+            case "imortal":
+            console.log(heroi + " Está quase no último nível");
+            break
+            case "radiante":
+            console.log(heroi + " Chegou ao nível mais forte!!! PARABÉS!!!");
+            break
+    }
